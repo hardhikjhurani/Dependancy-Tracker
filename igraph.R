@@ -14,7 +14,6 @@ E(network)
 
 V(network)$Gender
 
-# library(d3r)
-# data_json <- d3_igraph(network)
-
-# write(data_json, "data_json")
+library(d3r)
+data_json <- d3_igraph(network)
+write(data_json, "data_json")
